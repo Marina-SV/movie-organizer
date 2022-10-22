@@ -4,7 +4,6 @@ import Header from '../../components/Header/Header';
 import SearchBox from '../../components/SearchBox/SearchBox';
 import Movies from '../../components/Movies/Movies';
 import Favorites from '../../components/Favorites/Favorites';
-import ListPage from '../ListPage/ListPage';
 
 
 const key = '5bbe6c33'
