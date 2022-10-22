@@ -35,7 +35,7 @@ class MainPage extends Component {
 
     searchMovies = async (title = 'superman') => { // по умолчанию superman, но меняется с приходом нового значения
 
-        const res = await fetch(`http://www.omdbapi.com/?s=${title}&apiKey=${key}`)
+        const res = await fetch(`https://www.omdbapi.com/?s=${title}&apiKey=${key}`)
         const json = await res.json();
         return json.Search
     }

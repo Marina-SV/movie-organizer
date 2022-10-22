@@ -18,7 +18,7 @@ class ListPage extends Component {
     }
 
     getMovie = async (imdbID) => {
-        const res  = await fetch(`http://www.omdbapi.com/?i=${imdbID}&apiKey=${key}`)
+        const res  = await fetch(`https://www.omdbapi.com/?i=${imdbID}&apiKey=${key}`)
         const json = await res.json()
         return json
     }
